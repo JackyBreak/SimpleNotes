@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "data": {
+    "topicList":[
+      {
+        "id":1,
+        "title": "Social Focus",
+        "imgUrl": "https://rollerresearch.files.wordpress.com/2018/09/social-environment.jpg?w=422&h=282"
+      },{
+        "id":2,
+        "title": "Arts",
+        "imgUrl": "https://image.pbs.org/poster_images/ch_nodes/the-arts_visual-art-504018298.jpg.resize.244x244.jpg"
+      }
+    ],
+    "articleList": [
+      {
+        "id": 1,
+        "title": "Greenland event Zhang Yuting: the reflection of women's greed, men's deception, desire of the unbounded",
+        "desc": "Although the green space event has been fermenting on the Internet for several days, although there is no official response yet, the social influence of this event is still very large, because what we are involved in through this event is our public life...",
+        "imgUrl":"https://upload-images.jianshu.io/upload_images/1966045-27a4df5adf08fcfc.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+      },
+      {
+        "id": 2,
+        "title": "\"Floating life six records\" : want to put my life gentle all say with you to listen to",
+        "imgUrl":"https://upload-images.jianshu.io/upload_images/7042805-3119ddc0df3451fb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+        "desc": "I first met Shen Fu in a junior high school Chinese textbook. At that time he was full of childlike innocence. In his eyes, summer mosquitoes as troublesome as crane dance empty as clever, to see two small insects fight like the view of ancient military generals immediately one-on-one hit jin..."
+      },{
+        "id": 3,
+        "title": "Greenland event Zhang Yuting: the reflection of women's greed, men's deception, desire of the unbounded",
+        "desc": "Although the green space event has been fermenting on the Internet for several days, although there is no official response yet, the social influence of this event is still very large, because what we are involved in through this event is our public life...",
+        "imgUrl":"https://upload-images.jianshu.io/upload_images/1966045-27a4df5adf08fcfc.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+      },{
+        "id": 4,
+        "title": "Greenland event Zhang Yuting: the reflection of women's greed, men's deception, desire of the unbounded",
+        "desc": "Although the green space event has been fermenting on the Internet for several days, although there is no official response yet, the social influence of this event is still very large, because what we are involved in through this event is our public life...",
+        "imgUrl":"https://upload-images.jianshu.io/upload_images/1966045-27a4df5adf08fcfc.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+      },{
+        "id": 5,
+        "title": "\"Floating life six records\" : want to put my life gentle all say with you to listen to",
+        "desc": "I first met Shen Fu in a junior high school Chinese textbook. At that time he was full of childlike innocence. In his eyes, summer mosquitoes as troublesome as crane dance empty as clever, to see two small insects fight like the view of ancient military generals immediately one-on-one hit jin...",
+        "imgUrl":"https://upload-images.jianshu.io/upload_images/7042805-3119ddc0df3451fb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+      }
+    ],
+    "recommendList":[
+      {
+        "id":1,
+        "imgUrl":"http://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+      },{
+        "id":2,
+        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+      },{
+        "id":3,
+        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+      },{
+        "id":4,
+        "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+      }
+    ]
+  }
+}

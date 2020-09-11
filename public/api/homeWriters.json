@@ -1,0 +1,38 @@
+{
+"success": true,
+"data": {
+  "writerList":
+  [
+    {
+      "id": 1,
+      "avatarUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "writerName": "Dong's Dairy",
+      "writerIntro": "Wrote 1099.6k Words · 4.6k Likes"
+    },
+    {
+      "id": 2,
+      "avatarUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "writerName": "Dong's Dairy",
+      "writerIntro": "Wrote 1099.6k Words · 4.6k Likes"
+    },
+    {
+      "id": 3,
+      "avatarUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "writerName": "Dong's Dairy",
+      "writerIntro": "Wrote 1099.6k Words · 4.6k Likes"
+    },
+    {
+      "id": 4,
+      "avatarUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "writerName": "Dong's Dairy",
+      "writerIntro": "Wrote 1099.6k Words · 4.6k Likes"
+    },
+    {
+      "id": 5,
+      "avatarUrl": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "writerName": "Dong's Dairy",
+      "writerIntro": "Wrote 1099.6k Words · 4.6k Likes"
+    }
+  ]
+}
+}

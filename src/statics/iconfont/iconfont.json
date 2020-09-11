@@ -1,0 +1,37 @@
+{
+  "id": "2055449",
+  "name": "simplenotes",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "simplenotes icons",
+  "glyphs": [
+    {
+      "icon_id": "6403458",
+      "name": "spin",
+      "font_class": "spin",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1621077",
+      "name": "Aa",
+      "font_class": "Aa",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "11909726",
+      "name": "搜索、放大镜、查询",
+      "font_class": "sousuo-",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "14666025",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    }
+  ]
+}
