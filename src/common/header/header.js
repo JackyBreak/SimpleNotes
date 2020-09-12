@@ -2,6 +2,7 @@ import React, {PureComponent, Fragment} from "react";
 import {CSSTransition} from "react-transition-group";
 import {connect} from 'react-redux';
 import * as actionCreators from './store/headerActionCreator'
+import * as loginActionCreator from '../../pages/login/store/loginActionCreators';
 import {Link} from "react-router-dom";
 import {
     HeaderWrapper,
@@ -22,7 +23,7 @@ import {
 
 class Header extends PureComponent {
     render() {
-        const { focused, handleInputFocus, handleInputBlur, list } = this.props;
+        const { focused, handleInputFocus, handleInputBlur, list, login, logout } = this.props;
         return(
             <Fragment>
                 <HeaderWrapper>
@@ -30,9 +31,18 @@ class Header extends PureComponent {
                         <Logo />
                     </Link>
                     <Nav>
-                        <NavItem className={'left mainPage'}>Main Page</NavItem>
+                        <Link to={'/'}>
+                            <NavItem className={'left mainPage'}>Main Page</NavItem>
+                        </Link>
                         <NavItem className={'left'}>Download App</NavItem>
-                        <NavItem className={'right'}>Login</NavItem>
+                        {
+                            login ?
+                                <NavItem className={'right'} onClick={logout}>Log out</NavItem> :
+                                <Link to={'/login'}>
+                                    <NavItem className={'right'}>Login</NavItem>
+                                </Link>
+                        }
+
                         <NavItem className={'right'}>
                             <span className="iconfont">&#xe636;</span>
                         </NavItem>
@@ -53,10 +63,12 @@ class Header extends PureComponent {
                         </SearchWrapper>
                     </Nav>
                     <Addition>
-                        <Button className={'wri'}>
-                            <span className="iconfont">&#xe724;</span>
-                            Taking Notes
-                        </Button>
+                        <Link to={'/write'}>
+                            <Button className={'wri'}>
+                                <span className="iconfont">&#xe724;</span>
+                                Taking Notes
+                            </Button>
+                        </Link>
                         <Button className={'reg'}>Sign up</Button>
                     </Addition>
                 </HeaderWrapper>
@@ -106,7 +118,8 @@ const mapStateToProps = (state) => {
         list:state.get('header').get('list'),
         page:state.get('header').get('page'),
         mouseIn:state.get('header').get('mouseIn'),
-        totalPage:state.get('header').get('totalPage')
+        totalPage:state.get('header').get('totalPage'),
+        login: state.get('login').get('login')
     }
 }
 
@@ -140,6 +153,9 @@ const mapDispatchToProps = (dispatch) => {
             } else {
                 dispatch(actionCreators.changePage(1));
             }
+        },
+        logout(){
+            dispatch(loginActionCreator.logout())
         }
     }
 }

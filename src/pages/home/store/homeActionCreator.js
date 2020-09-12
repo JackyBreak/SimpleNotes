@@ -51,7 +51,6 @@ export const initWritersRecommend = () => {
     return (dispatch) => {
         axios.get('/api/homeWriters.json').then(
             (res) => {
-                console.log(res);
                 const result = res.data.data.writerList;
                 dispatch(initLoadWriters(result));
             }

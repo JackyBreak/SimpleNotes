@@ -1,0 +1,1 @@
+export const PUT_DETAILS = "detail/put_details";
